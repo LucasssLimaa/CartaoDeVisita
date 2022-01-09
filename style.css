@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+}
+
+.card {
+    background-image: url('imagens/backgorund.png');
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: New Tegomin;
+}
+
+img {
+    position: relative;
+    top: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+ul {
+    position: relative;
+    bottom: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 3px;
+}
+
+.link {
+    text-decoration: none;
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.one {
+    color: #E1306C;
+    border-color: #E1306C;
+
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.one:hover {
+    color: white;
+    background-color: #E1306C;
+}
+
+.two {
+    color: #4267B2;
+    border: 3px solid #4267B2;
+
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.two:hover {
+    color: white;
+    background-color: #4267B2;
+}
+
+.three {
+    color: #2867B2;
+    border: 3px solid #2867B2;
+
+    transition-property: all;
+    transition-duration: 300ms;
+}
+
+.three:hover {
+    color: white;
+    background-color: #2867B2;
+}
+
+@font-face {
+    font-family: New Tegomin;
+    src: url(fontes/NewTegomin-Regular.ttf);
+}
