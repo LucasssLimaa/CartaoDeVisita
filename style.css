@@ -12,11 +12,6 @@ body {
     font-family: New Tegomin;
 }
 
-img {
-    position: relative;
-    top: 12px;
-}
-
 h1 {
     margin: 10px;
 }
@@ -26,6 +21,11 @@ ul {
     bottom: 15px;
     list-style: none;
     padding-left: 0;
+}
+
+img {
+    position: relative;
+    top: 12px;
 }
 
 li {
@@ -54,8 +54,8 @@ li {
 }
 
 .two {
-    color: #4267B2;
-    border: 3px solid #4267B2;
+    color: #171515;
+    border: 3px solid #171515;
 
     transition-property: all;
     transition-duration: 300ms;
@@ -63,7 +63,7 @@ li {
 
 .two:hover {
     color: white;
-    background-color: #4267B2;
+    background-color: #171515;
 }
 
 .three {
