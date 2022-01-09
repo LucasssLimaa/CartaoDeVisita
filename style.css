@@ -3,7 +3,7 @@ body {
 }
 
 .card {
-    background-image: url('imagens/backgorund.png');
+    background-image: url("assets/images/backgorund.png");
     background-size: cover;
     width: 400px;
     height: 200px;
@@ -14,7 +14,7 @@ body {
 
 img {
     position: relative;
-    top: 10px;
+    top: 12px;
 }
 
 h1 {
@@ -81,5 +81,5 @@ li {
 
 @font-face {
     font-family: New Tegomin;
-    src: url(fontes/NewTegomin-Regular.ttf);
+    src: url("assets/fonts/NewTegomin-Regular.ttf");
 }
